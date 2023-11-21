@@ -7,7 +7,7 @@ def listar_aluno():
             print(f"Nome: {dados['Nome']}")
             print(f"Telefone: {dados['Telefone']}")
     else:
-        print("Nenhum aluno cadastrado")
+        print("OPS Nenhum aluno cadastrado")
 
 def cadastrar_aluno():
     matricula = input("Informe o número de matrícula do aluno: ")
